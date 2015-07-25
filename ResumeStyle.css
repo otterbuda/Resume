@@ -6,21 +6,28 @@
 	height: 60px;
 	background-color: #FF6600;
 	margin-bottom: 10px;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 h3 {
 	margin-bottom: 15px;
 	font-family: Verdana, sans-serif;
+	margin-left: 5px;
 }
 
 li {
 	list-style-type: square;
+	margin-left: 10px;
+}
+
+p {
+	margin-left: 10px;
 }
 
 #left {
 	position: relative;
 	font-style: bold;
+	
 }
 
 .school {
@@ -32,7 +39,7 @@ li {
 .organ {
 	position: relative;
 	margin-top:-15px;
-	margin-left:10px;
+	margin-left: 20px;
 }
 
 #email {
@@ -56,6 +63,28 @@ a:hover {
 	font-family: Verdana, sans-serif;
 	color: #FFFFFF;
 	font-style: bold;
+}
+
+.leftbox {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 1050px;
+	background-color: #4D4DFF;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.rightbox {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 1050px;
+	background-color: #B8DBFF;
+	margin-bottom: 10px;
+	border-radius: 15px;
 }
 
 #footer {
